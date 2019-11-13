@@ -4,7 +4,7 @@ This is the repository for rs Homebrew packages. Homebrew is "the missing packag
 
 To install a package:
 
-```console
+```
 brew tap k-nasa/tap
 brew install <package>
 ```
