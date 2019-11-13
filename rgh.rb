@@ -8,4 +8,8 @@ class Rgh < Formula
   def install
     bin.install "rgh"
   end
+
+  test do
+    system "#{bin}/rgh --version"
+  end
 end
