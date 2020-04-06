@@ -15,7 +15,8 @@ jobs:
         package: [
           rgh,
           goku,
-          prf
+          prf,
+          lc,
         ]
 
     steps:
