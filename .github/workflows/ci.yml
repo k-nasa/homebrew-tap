@@ -1,0 +1,25 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: Build package
+    runs-on: macOS-latest
+    strategy:
+      matrix:
+        package: [
+          rgh,
+          goku,
+          prf
+        ]
+
+    steps:
+      - uses: actions/checkout@master
+
+      - name: Install ${{ matrix.package }}
+        run: brew install k-nasa/tap/${{ matrix.package }}
