@@ -5,7 +5,7 @@ class Discordcat < Formula
   homepage 'https://github.com/k-nasa/discordcat'
   url "https://github.com/k-nasa/discordcat/releases/download/#{version}/discordcat_x86_64-apple-darwin.tar.gz"
   version version
-  sha256 '8f8474348b62ca9ee2599456013deb746a8e546684c1f151e627f4947894ba33'
+  sha256 'ce0d1819b601566eac006bf50fc7440f3e652dd865977c509b6d71e87f3d8c01'
 
   def install
     bin.install 'discordcat'
