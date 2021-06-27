@@ -15,3 +15,4 @@ brew install <package>
 | [goku](https://github.com/k-nasa/goku) | goku is a HTTP load testing application written in Rust |
 | [prf](https://github.com/k-nasa/prf)   | Tool to fetch PR branch to local repository             |
 | [discordcat](https://github.com/k-nasa/discordcat)   |  CLI utility to post files and command output to discord   |
+| [wai](https://github.com/k-nasa/wai)   |  A simple wasm interpreter   |
